@@ -192,8 +192,8 @@ class archive extends Phaser.Scene {
     }
 
     update() {
-        this.spotlight.x=this.player.x+50;
-        this.spotlight.y=this.player.y-50;
+        this.spotlight.x=this.player.x+5;
+        this.spotlight.y=this.player.y-5;
 
         if(this.cursors.left.isDown){
             this.player.body.setVelocityX(-200);
